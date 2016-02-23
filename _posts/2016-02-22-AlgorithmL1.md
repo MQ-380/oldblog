@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  算法导论学习笔记
+title:  算法导论LESSON 1
 date:   2016-2-22 12:50:00
 categories: 算法
 tags: 算法导论学习笔记
@@ -94,10 +94,11 @@ $$
 * 另外两个记号
 
   * o记号：
+   {%raw%}
     $$
     o(g(n)) = \{f(n) ：\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) < c·g(n)  \}
     $$
-
+   {%endraw%}
   * ω记号：
     $$
     \omega(g(n)) = \{f(n) ：\exists c>0,n_0>0 ;对于\forall n\ge n_0  都有0\le c·g(n) <  f(n) \}
