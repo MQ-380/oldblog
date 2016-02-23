@@ -31,7 +31,6 @@ github:   mq-380
 
 
 # Build settings
-markdown: maruku
 sass:
   style: compressed
 gems:
