@@ -7,7 +7,7 @@ tags: 算法导论学习笔记
 ---
 
 
-
+**本文中含有数学公式，若无法显示请刷新重试，谢谢~**
 # Lesson 1
 
 ## 插入排序
@@ -89,7 +89,7 @@ $$
 
 - o记号
 $$
-o(g(n))=\{f(n):\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0  都有0<= f(n)< c·g(n)  \}
+o(g(n))=\{f(n):\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) 且 f(n)< c·g(n)  \}
 $$
 
 
