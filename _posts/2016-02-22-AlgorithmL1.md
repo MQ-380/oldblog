@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  算法导论学习笔记
-date:   2016-2-22 22:50:00
+date:   2016-2-22 12:50:00
 categories: 算法
 tags: 算法导论学习笔记
 ---
