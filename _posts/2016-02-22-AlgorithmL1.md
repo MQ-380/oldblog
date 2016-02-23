@@ -80,13 +80,14 @@ $$
 
 - 渐进紧确界
 $$
-\Theta(g(x))=\{f(n):\exists 正常数 c_1,c_2,n_0;使得对\forall n\ge n_0,都有0\le c_1·g(n)\le f(n) \le c2·g(n) \}
+\Theta(g(n))=\{f(n):\exists 正常数 c_1,c_2,n_0;使得对\forall n\ge n_0,都有0\le c_1·g(n)\le f(n) \le c2·g(n) \}
 $$
 
 - o记号
 $$
-o(g(n)) = \{f(n) ：对于任意c>0,都存在一个n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) < c·g(n)  \}
+o(g(x))=\{f(n) ：对于任意c>0,都存在一个n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) < c·g(n)  \}
 $$
+
 
 - ω记号
 $$
