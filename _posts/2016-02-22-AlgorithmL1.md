@@ -83,14 +83,14 @@ $$
 \Theta(g(x))=\{f(n):\exists 正常数 c_1,c_2,n_0;使得对\forall n\ge n_0,都有0\le c_1·g(n)\le f(n) \le c2·g(n) \}
 $$
 
- - o记号
+- o记号
 $$
-o(g(n)) = \{f(n) ：\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) < c·g(n)  \}
+\Theta(g(x))=\{f(n):\exists 正常数 c_1,c_2,n_0;使得对\forall n\ge n_0,都有0\le c_1·g(n)\le f(n) \le c2·g(n) \}
 $$
 
- - ω记号
+- ω记号
 $$
- \omega(g(n)) = \{f(n) ：\exists c>0,n_0>0 ;对于\forall n\ge n_0  都有0\le c·g(n) <  f(n) \}
+\omega(g(n)) = \{f(n) ：\exists c>0,n_0>0 ;对于\forall n\ge n_0  都有0\le c·g(n) <  f(n) \}
 $$
 
 
