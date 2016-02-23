@@ -1,4 +1,4 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 ---
 layout: post
 title:  算法导论LESSON 1
@@ -63,6 +63,7 @@ void insertionsort(vector<int> sorted){
 ​	
 
 ​            第一个等式：
+
 $$
 表明存在某个函数f(n) \in \Theta(n),使得对所有的n，有2n^2+3n+1=2n+f(n)。
 $$
