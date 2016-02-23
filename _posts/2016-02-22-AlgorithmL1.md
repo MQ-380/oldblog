@@ -18,7 +18,7 @@ tags: 算法导论学习笔记
 
 2 插入排序的C++实现
 
-```c++ 
+``` 
 void insertionsort(vector<int> sorted){
     int size = (int)sorted.size();                 
     for(int j=1;j<size;j++){                        //从第2项开始取为目标元素
@@ -93,12 +93,12 @@ $$
 
   - o记号：
     $$
-    o(g(n)) = \{f(n) ：\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) < c·g(n)  \}
+o(g(n)) = \{f(n) ：\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) < c·g(n)  \}
     $$
 
   - ω记号：
     $$
-    \omega(g(n)) = \{f(n) ：\exists c>0,n_0>0 ;对于\forall n\ge n_0  都有0\le c·g(n) <  f(n) \}
+ \omega(g(n)) = \{f(n) ：\exists c>0,n_0>0 ;对于\forall n\ge n_0  都有0\le c·g(n) <  f(n) \}
     $$
 
 
@@ -109,7 +109,7 @@ $$
 
 2 归并排序的C++实现：
 
-``` c++
+```
 vector<int> sorted;
 //归并操作
 void merge(int left,int mid,int right){           
