@@ -20,15 +20,19 @@ tags: 算法导论学习笔记
 
 ``` 
 void insertionsort(vector<int> sorted){
-    int size = (int)sorted.size();                 
-    for(int j=1;j<size;j++){                        //从第2项开始取为目标元素
+    int size = (int)sorted.size();
+    //从第2项开始取为目标元素
+    for(int j=1;j<size;j++){                        
         int key = sorted[j];
-        int k = j-1;                               //需要比较的是目标元素的前一项开始
-        while(k>=0 && sorted[k]>key){             //向后移动的必要条件
+        //需要比较的是目标元素的前一项开始
+        int k = j-1;      
+        //向后移动的必要条件
+        while(k>=0 && sorted[k]>key){             
             sorted[k+1] = sorted[k];
             k--;
         }
-        sorted[k+1] = key;                        //跳出循环，找到了应该在的位置
+        //跳出循环，找到了应该在的位置
+        sorted[k+1] = key;                        
     }
 }
 ```
@@ -85,13 +89,13 @@ $$
 
 - o记号
 $$
-o(g(n))=\{f(n):对于任意c>0,都存在一个n_0>0 ;对于\forall n\ge n_0  都有0\le f(n)< c·g(n)  \}
+o(g(n))=\{f(n):\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0  都有0<= f(n)< c·g(n)  \}
 $$
 
 
 - ω记号
 $$
-\omega(g(n)) = \{f(n) ：\exists c>0,n_0>0 ;对于\forall n\ge n_0  都有0\le c·g(n)< f(n) \}
+\omega(g(n)) = \{f(n) ：\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0  都有0<= c·g(n)< f(n) \}
 $$
 
 
