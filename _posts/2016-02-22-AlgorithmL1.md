@@ -10,7 +10,7 @@ tags: 算法导论学习笔记
 
 # Lesson 1
 
-## 插入排序算法
+## 插入排序
 
 1 插入排序的基本原理（递增排序）
 
@@ -37,13 +37,13 @@ void insertionsort(vector<int> sorted){
 
 - 时间复杂度上界 $$O(n^2)$$
 
+
 ## 几个标记符号的数学定义
 
 - 几个注意点： 
 
   - 渐进符号只关心两个函数在极限位置的大小状况。
   
-
   - 所有的渐进符号都代表着一种函数，为集合概念，『=』仅为方便记载，对应于集合论中『∈』符号，理论上前后不调换。
 
   - 性质：传递，自反，对称，转置对称
@@ -71,7 +71,6 @@ $$
   $$
   O(g(n)) = \{f(n) ：\exists c>0,n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) \le c·g(n)  \}
   $$
-
   - 渐进上界的计算方式：忽略所有低阶项和最高阶前之前的常数系数。
 
 - 渐进下界
@@ -80,17 +79,16 @@ $$
   $$
 
 - 渐进紧确界
-
 $$
 \Theta(g(x))=\{f(n):\exists 正常数 c_1,c_2,n_0;使得对\forall n\ge n_0,都有0\le c_1·g(n)\le f(n) \le c2·g(n) \}
 $$
 
- - o记号：
+ - o记号
 $$
 o(g(n)) = \{f(n) ：\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) < c·g(n)  \}
 $$
 
- - ω记号：
+ - ω记号
 $$
  \omega(g(n)) = \{f(n) ：\exists c>0,n_0>0 ;对于\forall n\ge n_0  都有0\le c·g(n) <  f(n) \}
 $$
@@ -167,6 +165,7 @@ void mergesort(int leftlim,int rightlim){
 $$
 T(n) = 2T(n/2)+\Theta(n)     (n > 1)
 $$
+
 $$
 T(n) = \Theta(1) (n=1)
 $$
