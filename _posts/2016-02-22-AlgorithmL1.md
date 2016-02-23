@@ -57,22 +57,18 @@ void insertionsort(vector<int> sorted){
     2n^2+3n+1=2n^2+\Theta(n)=\Theta(n^2)
     $$
 
-​	
-
-​            第一个等式：
+第一个等式：
 $$ 
 表明存在某个函数f(n) \in \Theta(n),使得对所有的n，有2n^2+3n+1=2n+f(n)。
 $$
-​            第二个等式：
+第二个等式：
 $$
 表明对于任意函数g(n)\in\Theta(n),存在h(x)\in\Theta(n^2),使得对所有的n，有2n^2+g(n)=h(n)。
 $$
 整体也蕴含着前项直接可以属于最后项（这个法则仅对有限项有效）
 
 - 渐进上界
-
-
-- $$
+  $$
   O(g(n)) = \{f(n) ：\exists c>0,n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) \le c·g(n)  \}
   $$
 
@@ -89,17 +85,15 @@ $$
 \Theta(g(x))=\{f(n):\exists 正常数 c_1,c_2,n_0;使得对\forall n\ge n_0,都有0\le c_1·g(n)\le f(n) \le c2·g(n) \}
 $$
 
-- 另外两个记号
-
-  - o记号：
-    $$
+ - o记号：
+$$
 o(g(n)) = \{f(n) ：\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) < c·g(n)  \}
-    $$
+$$
 
-  - ω记号：
-    $$
+ - ω记号：
+$$
  \omega(g(n)) = \{f(n) ：\exists c>0,n_0>0 ;对于\forall n\ge n_0  都有0\le c·g(n) <  f(n) \}
-    $$
+$$
 
 
 
@@ -178,8 +172,7 @@ T(n) = \Theta(1) (n=1)
 $$
 
 4 递归式的时间复杂度分析
-
-​    这里利用递归树的方法。具体在L2中解释，利用这个方法可以得到归并排序的时间复杂度为
+这里利用递归树的方法。具体在L2中解释，利用这个方法可以得到归并排序的时间复杂度为
 $$
 O(nlgn)
 $$
