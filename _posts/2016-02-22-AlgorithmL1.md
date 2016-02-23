@@ -18,7 +18,7 @@ tags: 算法导论学习笔记
 
 2 插入排序的C++实现
 
-``` c++ 
+```c++ 
 void insertionsort(vector<int> sorted){
     int size = (int)sorted.size();                 
     for(int j=1;j<size;j++){                        //从第2项开始取为目标元素
@@ -35,7 +35,7 @@ void insertionsort(vector<int> sorted){
 
 3 插入排序算法的分析
 
-- 时间复杂度上界 $O(n^2)$
+- 时间复杂度上界 $$O(n^2)$$
 
 ## 几个标记符号的数学定义
 
@@ -54,9 +54,7 @@ void insertionsort(vector<int> sorted){
 
     _Ex._ 
     $$
-
     2n^2+3n+1=2n^2+\Theta(n)=\Theta(n^2)
-
     $$
 
 ​	
