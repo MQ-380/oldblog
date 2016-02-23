@@ -31,7 +31,7 @@ github:   mq-380
 
 
 # Build settings
-markdown:kramdown
+markdown: kramdown
 sass:
   style: compressed
 gems:
