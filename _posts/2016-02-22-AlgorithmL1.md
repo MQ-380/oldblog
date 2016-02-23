@@ -85,7 +85,7 @@ $$
 
 - o记号
 $$
-o(g(n)) = \{f(n) ：\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0 都有0\le f(n)<c·g(n)  \}
+o(g(n)) = \{f(n) ：\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) < c·g(n)  \}
 $$
 
 - ω记号
@@ -171,6 +171,7 @@ T(n) = \Theta(1) (n=1)
 $$
 
 4 递归式的时间复杂度分析
+
 这里利用递归树的方法。具体在L2中解释，利用这个方法可以得到归并排序的时间复杂度为
 $$
 O(nlgn)
