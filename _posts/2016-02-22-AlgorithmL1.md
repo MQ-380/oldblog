@@ -85,13 +85,13 @@ $$
 
 - o记号
 $$
-o(g(n))=\{f(n):对于任意c>0,都存在一个n_0>0 ;对于\forall n\ge n_0  都有0\le f(n)\le c·g(n)  \}
+o(g(n))=\{f(n):对于任意c>0,都存在一个n_0>0 ;对于\forall n\ge n_0  都有0\le f(n)< c·g(n)  \}
 $$
 
 
 - ω记号
 $$
-\omega(g(n)) = \{f(n) ：\exists c>0,n_0>0 ;对于\forall n\ge n_0  都有0\le c·g(n)<f(n) \}
+\omega(g(n)) = \{f(n) ：\exists c>0,n_0>0 ;对于\forall n\ge n_0  都有0\le c·g(n)< f(n) \}
 $$
 
 
