@@ -85,7 +85,7 @@ $$
 
 - o记号
 $$
-o(g(n)) = \{f(n) ：\forall c>0,\exists n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) < c·g(n)  \}
+o(g(n)) = \{f(n) ：对于任意c>0,都存在一个n_0>0 ;对于\forall n\ge n_0  都有0\le f(n) < c·g(n)  \}
 $$
 
 - ω记号
