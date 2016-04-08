@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  编译原理之左递归消除
-date:   2016-2-15 16:50:00
+date:   2016-4-7 16:50:00
 categories: 编译原理
 tags: 编译原理
 ---
