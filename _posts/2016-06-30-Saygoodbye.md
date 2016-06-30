@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  诀别
-date:   2016-6-30 16:50:00
+date:   2016-6-30 13:50:00
 categories: 雜記
 tags: 总结
 ---
